@@ -275,3 +275,38 @@ body {
     width: 95%;
 }
 
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+.footer-container{
+    padding: 104px 0;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.footer-paragraph{
+    color: #8987A1;
+    margin: 10px 0;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-link li{
+    list-style: none;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: #8987A1;
+    margin: 0 40px;
+}
+
