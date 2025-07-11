@@ -115,3 +115,36 @@ body{
     padding:  23px 0;
 }
 
+/* Review Section */
+
+.review{
+    max-width: 1140px;
+    margin: 137px auto;
+}
+.review-background{
+    background-color: #4E47FF1A;
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+
+.review-list{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.review-title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 38px;
+}
+
+.review-list-title{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.review-list-paragraph{
+    color: #00000080;
+}
