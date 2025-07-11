@@ -46,6 +46,12 @@ body{
     background-color: #2723ae;
 }
 
+.section-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+
 /* Hero Section style */
 .header {
     background-image: url(./assets/Hero-bg.png);
@@ -96,8 +102,16 @@ body{
     margin: 116px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center ;
 }
 
 .action-image {
     border-radius: 48px;
 }
+
+.action-paragraph{
+    color: #25243280;
+    font-size: 24px;
+    padding:  23px 0;
+}
+
