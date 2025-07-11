@@ -40,10 +40,39 @@ body {
     border: none;
     border-radius: 10px;
     font-weight: 700;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s ease all;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.primary-button::before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom:0;
+    opacity: 0;
+    content: '';
+    background-color: #0a05a0;
+    z-index: -1;
+    border-radius: 10px;
 }
 
 .primary-button:hover {
-    background-color: #2723ae;
+    background-color: #2c25ff;
+}
+
+.primary-button:hover, .primary-button:focus {
+    color: white;
+}
+.primary-button:hover:before, .primary-button:focus:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
 }
 
 .section-title {
@@ -308,5 +337,9 @@ footer{
     text-decoration: none;
     color: #8987A1;
     margin: 0 40px;
+}
+
+hr{
+    border: 1px solid rgb(212, 212, 212);
 }
 
