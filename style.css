@@ -148,3 +148,59 @@ body{
 .review-list-paragraph{
     color: #00000080;
 }
+
+
+/* users Section Style */
+
+.users{
+    max-width: 1140px;
+    margin: 137px auto;
+}
+
+.user-box-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+.users-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.users-review-box{
+    background-color: white;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+
+.users-review-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.users-review{
+    margin-bottom: 24px;
+}
+
+.user-detail{
+    display: flex;
+    gap: 12px;
+}
+
+.avatar-img{
+    border-radius: 50%;
+}
+
+.user-name{
+    color: gray;
+}
+
+.review-date{
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(153, 153, 153);
+}
